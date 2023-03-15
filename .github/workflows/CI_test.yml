@@ -10,7 +10,7 @@ jobs:
       fail-fast: false
       matrix:
         os: [windows-latest, ubuntu-latest]
-        sourcemod-version: [master] # (1.11)
+        sourcemod-version: [1.11-dev] # (1.11)
         metamod-version: [master] # (1.11)
         sdks: [csgo, css, l4d2]
 
